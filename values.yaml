@@ -1,0 +1,9 @@
+dags:
+gitSync:
+enabled: true
+repo: https://github.com/Heyzaik/airflow-dags.git
+branch: main
+ref: main
+depth: 1
+subPath: "dags"
+credentialsSecret: git-credentials
